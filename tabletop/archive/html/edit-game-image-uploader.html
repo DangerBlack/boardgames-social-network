@@ -1,0 +1,65 @@
+<script type="text/javascript">
+    /* The uploader form */
+    $(function () {
+        $("#imageFile").change(function () {
+            if (this.files && this.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = imageIsLoaded;
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+    });
+
+    function imageIsLoaded(e) {
+        $('#myImgLoaded').attr('src', e.target.result);
+        $('#yourImage').attr('src', e.target.result);
+    };
+
+</script>
+<div calss="section5">
+	<div class="row">
+			<div class="col-md-3">
+				<label>Immagine: </label>
+			</div>
+			<div class="col-md-6" id="idGame" value="">
+				<input type='file' id="imageFile"/>
+				
+			</div>
+			<div class="col-md-3">
+				<div class="thumbnail">
+					<img id="myImgLoaded" src="#" alt="your image" />
+				</div>
+				<span id="nameTrouble"></span>
+			</div>
+	  </div>
+	  <div class="row">
+			<div class="col-md-3">
+				<label>Titolo Immagine: </label>
+			</div>
+			<div class="col-md-6">
+				<input id="title" placeholder="titolo" value="" />				
+			</div>
+			<div class="col-md-3">
+			</div>
+	  </div>
+	  <div class="row">
+			<div class="col-md-3">
+				<label>Tipologia: </label>
+			</div>
+			<div class="col-md-6">
+				<select id="kind">
+					<option>anteprima</option>
+					<option>contenuto</option>
+					<option>gioco</option>
+					<option>miniatura</option>
+					<option>tabellone</option>
+					<option>altro</option>
+				</select>
+				
+			</div>
+			<div class="col-md-3">
+			</div>
+	  </div>
+</div>
+				

@@ -1,0 +1,162 @@
+﻿body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.preview{
+	max-width:200px;
+	max-height:200px;
+	border:solid;
+}
+.info{
+	text-align:left;
+}
+.manage button{
+	width:150px;
+	margin-bottom:2px;
+}
+.name{
+	margin-bottom:1px;
+}
+.manufacturer{
+	margin-top:0px;
+	font-size:0,8em;
+}
+#dinamicPicture{
+	padding-top:50px;
+}
+
+.error-message{
+	max-width:660;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:20px;
+	display:none;
+	text-align:center;
+}
+.register{
+	margin-top:40px;
+}
+.register input[type="submit"]{
+	margin-left:5px;
+	min-width:130px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.small-circle{
+	margin-left:5px;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:20px;
+	height:20px;
+	background-color:white;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	border-radius: 120px;
+}
+.mini-img{
+	width:20px;
+	height:20px;
+	margin-left:5px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.avatar-comment{
+	max-width:64px;
+	max-height:64px;
+}
+.media-left{
+	min-width:10%;
+}
+.media-body{
+	text-align: left;
+	padding-left:50px;
+}
+.small-data{
+	font-size:0.6em;
+}
+.gestione button{
+	margin-left:5px;
+	min-width:130px;
+}
+h1.libreria{
+	text-align: left;
+}
+#option button{
+	float:right;
+	margin-left:5px;
+}
+.libreria .btn-group{
+	float:right;
+	margin-top:5px;
+}
+.libreria .btn-group button{
+	min-width:10px;
+	padding-bottom:4px;
+}
+#userDetails button{
+	float:right;
+}
+.navbar-center input{
+	margin-left:150px;
+	min-width:350px;
+}
+.game-editor{
+	text-align:left;
+}
+.game-editor input{
+	width:100%;
+	height:35px;
+}
+.game-editor textarea{
+	width:100%;
+	min-height:200px;
+}
+.game-editor .row{
+	margin-top:3px;
+}
+.game-editor button{
+	float:right;
+}
+.small-error{
+	max-height:35px;
+	font-size:0.8em;
+	padding-top:2px;
+	padding-bottom:2px;
+	margin-top:0px;
+	margin-bottom:0px;
+}

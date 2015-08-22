@@ -1,0 +1,53 @@
+<style>
+#recensione{
+	text-align:left;
+}
+#review{
+	width:100%;
+}
+.lungo{
+	width:100%;
+}
+#recensione button{
+	min-width:130px;
+}
+#recensione input[type="number"]{
+	width:50px;
+}
+</style>
+<div class="row">
+	<div class="col-lg-3" role="form">
+	</div>
+	<div class="col-lg-6" role="form">
+		<div class="row">
+			<div class="error-message alert alert-danger"></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6" role="form">
+				<div class="form-group">
+					<label for="InputName">Valutazione</label>
+					<div class="input-group">
+						<input type="number" id="star" value="6" />
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6" role="form">
+				<div class="form-group">
+					<label for="InputName">Complessità</label>
+					<div class="input-group">
+						<input type="number" id="complexity" value="6" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form-group lungo">
+			<label for="InputName">Recensione</label>
+			<div class="input-group lungo">
+				<textarea name="review" id="review" class="form-control" rows="5" required></textarea>
+			</div>
+		</div>
+		<button type="submit" name="submit" id="submit" value="Invia" class="btn btn-sm btn-primary pull-right" >Invia</button>
+	</div>
+	<div class="col-lg-3" role="form">
+	</div>
+</div>
